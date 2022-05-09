@@ -46,4 +46,4 @@ for i in range(0, max_iterations):
     population.chromosomes = next_gen
     last_avg_fit = avg_fit
 
-print(min_length, population.best_chr + 1) 
+print("The best route found is: ", population.best_chr + 1, "\nIts length is ", min_length) 
